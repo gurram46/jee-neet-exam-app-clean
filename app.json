@@ -11,6 +11,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#2196F3"
     },
-    "platforms": ["ios", "android", "web"]
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "72c8b5a7-4a78-4af8-8118-f1522d49e80a"
+      }
+    },
+    "android": {
+      "package": "com.jeeneet.app"
+    }
   }
 }
