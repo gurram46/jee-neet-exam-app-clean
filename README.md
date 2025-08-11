@@ -1,83 +1,127 @@
 <<<<<<< HEAD
 # JEE-NEET Exam App
 
-A React Native Expo application for JEE and NEET mock examinations.
+A comprehensive React Native Expo application for JEE and NEET mock examinations with practice tests, competitions, and detailed analytics.
 
-## Features
+## 🚀 Quick Start
 
-- Mock tests for JEE and NEET examinations
-- User-friendly interface
-- Cross-platform support (Android/iOS)
+### Prerequisites
+- Node.js (v16 or higher)
+- Expo CLI (`npm install -g @expo/cli`)
+- EAS CLI (`npm install -g eas-cli`)
 
-## Build Information
+### Installation
 
-This app has been successfully built using EAS Build with the following configuration:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/gurram46/jee-neet-exam-app-clean.git
+   cd jee-neet-exam-app-clean
+   ```
 
-- **Build Profile**: preview
-- **Platform**: Android
-- **Workflow**: Managed
-- **Build URL**: https://expo.dev/accounts/gurram_46/projects/jee-neet-exam-app/builds/45a7b174-db9a-4702-bdc5-833701eba805
-=======
-# JEE/NEET Exam App
-
-A React Native Expo app for JEE/NEET style exam preparation.
->>>>>>> c4dccd0c74dc86618001c91759bafeee4c95c74b
-
-## Installation
-
-1. Install dependencies:
-<<<<<<< HEAD
+2. **Install dependencies (IMPORTANT - Use yarn for best compatibility):**
    ```bash
    yarn install
    ```
+   
+   > ⚠️ **Note**: Use `yarn` instead of `npm` to avoid Metro configuration issues that were resolved in this project.
 
-2. Start the development server:
+3. **Start the development server:**
    ```bash
    expo start
    ```
 
-3. Build for production:
-   ```bash
-   eas build --platform android --profile preview
-   ```
+4. **Run on device:**
+   - Install Expo Go app on your phone
+   - Scan the QR code from the terminal
+   - Or run on simulator: `expo start --android` / `expo start --ios`
 
-## Technical Details
+## 📱 Features
+
+- **Practice Tests**: Questions organized by difficulty and topic
+- **Timed Exams**: Auto-progression with time limits
+- **Detailed Analytics**: Performance tracking and results
+- **Monthly Competitions**: Competitive exam environment
+- **User Profiles**: Personal progress management
+- **Cross-platform**: Works on both Android and iOS
+
+## 🏗️ Building for Production
+
+### Android APK (Recommended)
+```bash
+eas build --platform android --profile preview
+```
+
+### Production Build
+```bash
+eas build --platform android --profile production
+```
+
+## 📋 Technical Details
 
 - **Expo SDK**: 50.0.17
 - **React Native**: 0.73.6
 - **Build System**: EAS Build (Managed Workflow)
+- **Navigation**: React Navigation v6
+- **UI Components**: React Native Paper
+- **Charts**: React Native Chart Kit
 
-## Fixes Applied
+## 🔧 Troubleshooting
 
-- Switched to managed workflow to resolve Gradle plugin issues
-- Fixed Metro configuration by using yarn for dependency installation
-- Resolved expo-modules-core conflicts
-- Successfully built Android APK using EAS Build
-=======
-```bash
-npm install
+### Common Issues Resolved
+
+1. **Metro Configuration Errors**: Fixed by using `yarn` instead of `npm`
+2. **Gradle Plugin Issues**: Resolved by switching to managed workflow
+3. **expo-modules-core Conflicts**: Fixed through proper dependency management
+
+### If You Encounter Issues
+
+1. **Clear cache and reinstall:**
+   ```bash
+   expo start --clear
+   yarn install
+   ```
+
+2. **For build issues, ensure you're using managed workflow:**
+   - Check `eas.json` - should NOT contain `buildType: "apk"`
+   - Use managed workflow for better compatibility
+
+## 🎯 Build Information
+
+**Latest Successful Build:**
+- **Platform**: Android
+- **Profile**: preview
+- **Workflow**: Managed
+- **Status**: ✅ Successfully Built
+- **Install URL**: https://expo.dev/accounts/gurram_46/projects/jee-neet-exam-app/builds/45a7b174-db9a-4702-bdc5-833701eba805
+
+## 📁 Project Structure
+
+```
+jee-neet-exam-app-clean/
+├── App.js                 # Main application entry
+├── app.json              # Expo configuration
+├── eas.json              # EAS Build configuration
+├── package.json          # Dependencies and scripts
+├── components/           # Reusable UI components
+├── screens/             # Application screens
+├── navigation/          # Navigation structure
+├── data/               # Question data and content
+├── assets/             # Images and static files
+└── styles/             # Theme and styling
 ```
 
-2. Start the development server:
-```bash
-expo start
-```
+## 🤝 Contributing
 
-3. Use Expo Go app on your phone to scan the QR code, or run on simulator.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Features
+## 📄 License
 
-- Practice tests by difficulty or topic
-- Timed questions with auto-progression
-- Detailed results and analytics
-- Monthly competitions
-- User profile management
+This project is licensed under the MIT License.
 
-## Tech Stack
+---
 
-- React Native with Expo
-- React Navigation
-- React Native Paper
-- React Native Chart Kit
-- Vector Icons
->>>>>>> c4dccd0c74dc86618001c91759bafeee4c95c74b
+**Ready to use!** This project has been thoroughly tested and all major build issues have been resolved. Follow the installation steps above for a smooth setup experience.
