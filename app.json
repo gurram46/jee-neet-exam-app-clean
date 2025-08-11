@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "JEE-NEET Exam App",
     "slug": "jee-neet-exam-app",
     "version": "1.0.0",
@@ -34,3 +35,31 @@
     }
   }
 }
+=======
+    "name": "JEE NEET Exam App",
+    "slug": "jee-neet-exam-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2196F3"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "72c8b5a7-4a78-4af8-8118-f1522d49e80a"
+      }
+    },
+    "android": {
+      "package": "com.jeeneet.app"
+    }
+  }
+}
+>>>>>>> c4dccd0c74dc86618001c91759bafeee4c95c74b

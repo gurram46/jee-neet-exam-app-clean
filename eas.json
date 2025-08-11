@@ -1,6 +1,11 @@
 {
   "cli": {
+<<<<<<< HEAD
     "version": ">= 5.2.0"
+=======
+    "version": ">= 16.17.4",
+    "appVersionSource": "remote"
+>>>>>>> c4dccd0c74dc86618001c91759bafeee4c95c74b
   },
   "build": {
     "development": {
@@ -10,9 +15,19 @@
     "preview": {
       "distribution": "internal"
     },
+<<<<<<< HEAD
     "production": {}
+=======
+    "production": {
+      "autoIncrement": true
+    }
+>>>>>>> c4dccd0c74dc86618001c91759bafeee4c95c74b
   },
   "submit": {
     "production": {}
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c4dccd0c74dc86618001c91759bafeee4c95c74b

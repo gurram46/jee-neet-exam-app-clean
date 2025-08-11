@@ -1,0 +1,185 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Physics",
+      "difficulty": "Easy",
+      "question": "What is the SI unit of force?",
+      "options": ["Newton", "Joule", "Watt", "Pascal"],
+      "answerIndex": 0,
+      "explanation": "Newton is the SI unit of force, named after Sir Isaac Newton."
+    },
+    {
+      "id": "q2",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "What is the acceleration due to gravity on Earth?",
+      "options": ["9.8 m/s²", "10 m/s²", "8.9 m/s²", "11 m/s²"],
+      "answerIndex": 0,
+      "explanation": "The standard acceleration due to gravity on Earth is approximately 9.8 m/s²."
+    },
+    {
+      "id": "q3",
+      "topic": "Physics",
+      "difficulty": "Hard",
+      "question": "What is the speed of light in vacuum?",
+      "options": ["3 × 10⁸ m/s", "2 × 10⁸ m/s", "4 × 10⁸ m/s", "1 × 10⁸ m/s"],
+      "answerIndex": 0,
+      "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ meters per second."
+    },
+    {
+      "id": "q4",
+      "topic": "Chemistry",
+      "difficulty": "Easy",
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "CO2", "NaCl", "O2"],
+      "answerIndex": 0,
+      "explanation": "Water is composed of two hydrogen atoms and one oxygen atom, hence H2O."
+    },
+    {
+      "id": "q5",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "What is the atomic number of carbon?",
+      "options": ["6", "8", "12", "14"],
+      "answerIndex": 0,
+      "explanation": "Carbon has 6 protons in its nucleus, making its atomic number 6."
+    },
+    {
+      "id": "q6",
+      "topic": "Chemistry",
+      "difficulty": "Hard",
+      "question": "What is Avogadro's number?",
+      "options": ["6.022 × 10²³", "3.14 × 10²³", "9.8 × 10²³", "1.6 × 10²³"],
+      "answerIndex": 0,
+      "explanation": "Avogadro's number is 6.022 × 10²³, representing the number of particles in one mole."
+    },
+    {
+      "id": "q7",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "What is 2 + 2?",
+      "options": ["4", "3", "5", "6"],
+      "answerIndex": 0,
+      "explanation": "Basic addition: 2 + 2 = 4."
+    },
+    {
+      "id": "q8",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "What is the derivative of x²?",
+      "options": ["2x", "x", "x²", "2x²"],
+      "answerIndex": 0,
+      "explanation": "Using the power rule, the derivative of x² is 2x."
+    },
+    {
+      "id": "q9",
+      "topic": "Mathematics",
+      "difficulty": "Hard",
+      "question": "What is the value of π (pi) to 3 decimal places?",
+      "options": ["3.142", "3.141", "3.143", "3.140"],
+      "answerIndex": 0,
+      "explanation": "Pi (π) is approximately 3.14159, which rounds to 3.142 to 3 decimal places."
+    },
+    {
+      "id": "q10",
+      "topic": "Biology",
+      "difficulty": "Easy",
+      "question": "What is the powerhouse of the cell?",
+      "options": ["Mitochondria", "Nucleus", "Ribosome", "Chloroplast"],
+      "answerIndex": 0,
+      "explanation": "Mitochondria are called the powerhouse of the cell because they produce ATP energy."
+    },
+    {
+      "id": "q11",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "How many chambers does a human heart have?",
+      "options": ["4", "2", "3", "6"],
+      "answerIndex": 0,
+      "explanation": "The human heart has four chambers: two atria and two ventricles."
+    },
+    {
+      "id": "q12",
+      "topic": "Biology",
+      "difficulty": "Hard",
+      "question": "What is the process by which plants make their own food?",
+      "options": ["Photosynthesis", "Respiration", "Digestion", "Fermentation"],
+      "answerIndex": 0,
+      "explanation": "Photosynthesis is the process where plants convert sunlight, CO2, and water into glucose and oxygen."
+    },
+    {
+      "id": "q13",
+      "topic": "Physics",
+      "difficulty": "Easy",
+      "question": "What type of energy does a moving object have?",
+      "options": ["Kinetic energy", "Potential energy", "Chemical energy", "Nuclear energy"],
+      "answerIndex": 0,
+      "explanation": "Kinetic energy is the energy possessed by an object due to its motion."
+    },
+    {
+      "id": "q14",
+      "topic": "Chemistry",
+      "difficulty": "Easy",
+      "question": "What gas do plants absorb from the atmosphere?",
+      "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "answerIndex": 0,
+      "explanation": "Plants absorb carbon dioxide from the atmosphere for photosynthesis."
+    },
+    {
+      "id": "q15",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "What is 10 × 10?",
+      "options": ["100", "20", "50", "200"],
+      "answerIndex": 0,
+      "explanation": "10 multiplied by 10 equals 100."
+    },
+    {
+      "id": "q16",
+      "topic": "Biology",
+      "difficulty": "Easy",
+      "question": "What is the largest organ in the human body?",
+      "options": ["Skin", "Liver", "Brain", "Heart"],
+      "answerIndex": 0,
+      "explanation": "The skin is the largest organ in the human body by surface area."
+    },
+    {
+      "id": "q17",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "What is the formula for kinetic energy?",
+      "options": ["½mv²", "mgh", "mc²", "F = ma"],
+      "answerIndex": 0,
+      "explanation": "Kinetic energy is calculated using the formula ½mv², where m is mass and v is velocity."
+    },
+    {
+      "id": "q18",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "What is the pH of pure water?",
+      "options": ["7", "0", "14", "1"],
+      "answerIndex": 0,
+      "explanation": "Pure water has a pH of 7, which is neutral on the pH scale."
+    },
+    {
+      "id": "q19",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "What is the square root of 64?",
+      "options": ["8", "6", "10", "4"],
+      "answerIndex": 0,
+      "explanation": "The square root of 64 is 8, because 8 × 8 = 64."
+    },
+    {
+      "id": "q20",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "What is DNA?",
+      "options": ["Deoxyribonucleic acid", "Ribonucleic acid", "Amino acid", "Fatty acid"],
+      "answerIndex": 0,
+      "explanation": "DNA stands for Deoxyribonucleic acid, which carries genetic information."
+    }
+  ],
+  "topics": ["Physics", "Chemistry", "Mathematics", "Biology"]
+}

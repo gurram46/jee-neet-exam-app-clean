@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
 
 export default function App() {
@@ -40,3 +41,19 @@ const styles = StyleSheet.create({
     lineHeight: 24,
   },
 });
+=======
+import { NavigationContainer } from '@react-navigation/native';
+import { PaperProvider } from 'react-native-paper';
+import RootNavigator from './navigation/RootNavigator';
+import theme from './styles/theme';
+
+export default function App() {
+  return (
+    <PaperProvider theme={theme}>
+      <NavigationContainer>
+        <RootNavigator />
+      </NavigationContainer>
+    </PaperProvider>
+  );
+}
+>>>>>>> c4dccd0c74dc86618001c91759bafeee4c95c74b
